@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  laravelcrudtasksapi:
+    image: laravelcrudtasksapi
+    build:
+      context: .
+      dockerfile: ./dockerfiles
